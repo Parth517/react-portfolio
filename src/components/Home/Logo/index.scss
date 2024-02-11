@@ -11,9 +11,11 @@
     margin: auto;
   
     svg {
-      width: 100%;
+      position: absolute;
+      width: 200%;
       height: auto;
-      bottom: 0;
+      bottom: auto;
+      left:-50%;
       transform: rotateZ(30deg) !important;
     }
   
@@ -22,9 +24,9 @@
       top: auto;
       right: auto;
       bottom: auto;
-      left: 0;
+      left: -50%;
       margin: auto;
-      width: 100%;
+      width: 200%;
       opacity: 0;
       transform: rotateZ(30deg) !important;
       z-index: 1;
